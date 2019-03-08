@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="StudySettings">
+    <StudyTaskManager>
+      <option name="VERSION" value="13" />
+      <option name="myUserTests">
+        <map />
+      </option>
+      <option name="course">
+        <EduCourse>
+          <option name="authors">
+            <list>
+              <StepikUserInfo>
+                <option name="firstName" value="JetBrains" />
+                <option name="id" value="17813950" />
+                <option name="lastName" value="" />
+              </StepikUserInfo>
+            </list>
+          </option>
+          <option name="compatible" value="true" />
+          <option name="courseMode" value="Study" />
+          <option name="courseType" value="PyCharm" />
+          <option name="customPresentableName" />
+          <option name="description" value="An introductory interactive course about unit testing in Python." />
+          <option name="fromZip" value="false" />
+          <option name="id" value="3213" />
+          <option name="index" value="-1" />
+          <option name="instructors">
+            <list>
+              <option value="17813950" />
+            </list>
+          </option>
+          <option name="language" value="Python" />
+          <option name="languageCode" value="en" />
+          <option name="loadSolutions" value="true" />
+          <option name="name" value="Python Unit-Testing Course" />
+          <option name="public" value="true" />
+          <option name="sectionIds">
+            <list>
+              <option value="6512" />
+            </list>
+          </option>
+          <option name="stepikChangeStatus" value="Up to date" />
+          <option name="type" value="pycharm2 Python" />
+          <option name="updateDate" value="1550503793000" />
+          <option name="items">
+            <list>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="50392" />
+                <option name="index" value="1" />
+                <option name="name" value="Introduction" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1513857918000" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&#10;&lt;p&gt;&#10;    This course will teach how to write unit tests for Python functions and classes.&#10;    More specifically, it teaches how to use unit testing to make developing Python code easier and more enjoyable!&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    We'll start with an example, to see what a simple unit test looks like.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    This will also show that unit tests are a very explicit documentation of what a piece of code does:&#10;    even without seeing its code, it is obvious what the function should do!&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    &lt;strong&gt;Your objective:&lt;/strong&gt;&#10;    Make the test pass by implementing the &lt;code&gt;hello_world()&lt;/code&gt; function.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    To run the tests:&#10;    &lt;/p&gt;&lt;ol&gt;&#10;        &lt;li&gt;first, click the green &quot;run&quot; button at the top-left of the code window &lt;em&gt;once&lt;/em&gt;.&lt;/li&gt;&#10;        &lt;li&gt;A &lt;code&gt;Unittest in hello_wold&lt;/code&gt; run configuration will now appear on the top-right of the&#10;            PyCharm window. From now on, you can click the green &quot;run&quot; button next to it to just run the&#10;            unit tests.&lt;/li&gt;&#10;    &lt;/ol&gt;&#10;&lt;p&gt;&lt;/p&gt;&#10;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Hello, World!" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="202517" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="files">
+                        <map>
+                          <entry key="hello_world.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="Don't print the required text; return it." />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="24" />
+                                          <option name="offset" value="70" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="22" />
+                                      <option name="offset" value="70" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this function!" />
+                                      <option name="possibleAnswer" value="return &quot;Hello, World!&quot;" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="hello_world.py" />
+                                <option name="text" value="# this is the function that we will be testing&#10;def hello_world():&#10;    implement this function!&#10;&#10;&#10;# import the unittest module, which we will use to write our tests&#10;import unittest&#10;&#10;&#10;# With unittest, tests are grouped as methods of classes.&#10;# Each such class must be a sub-class of 'unittest.TestCase'.&#10;# And that's about all you need to know about these classes!&#10;class TestHelloWorld(unittest.TestCase):&#10;    &quot;&quot;&quot;Tests for the hello_world() function&quot;&quot;&quot;&#10;&#10;    # Each test is written as a method with a name beginning with &quot;test_&quot;&#10;    def test_return_value(self):&#10;        # Writing a doc-string for each test, explaining what it tests,&#10;        # is a good idea.&#10;        &quot;&quot;&quot;test that hello_world() returns 'Hello, World!'&quot;&quot;&quot;&#10;&#10;        # self.assertEqual() will make the test fail if the arguments are not equal.&#10;        self.assertEqual(hello_world(), &quot;Hello, World!&quot;)&#10;&#10;        # If no assertions fail, the test passes successfully. Note that this&#10;        # happens automatically; we don't have to return a value or anything&#10;        # of the sort.&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tests.py" />
+                                <option name="text" value="from custom_test_helpers import check_tests_pass&#10;from test_helper import run_common_tests, test_answer_placeholders_text_deleted, import_task_file&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    test_answer_placeholders_text_deleted()&#10;&#10;    module = import_task_file()&#10;    check_tests_pass(module)&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1513857911000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&#10;&lt;p&gt;&#10;    &lt;strong&gt;Your objective:&lt;/strong&gt;&#10;Write the test to check that the function returns &quot;Hello, World!&quot; when called with the appropriate input argument&#10;&lt;/p&gt;&#10;&lt;br&gt;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Your first unit test" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Solved" />
+                      <option name="stepId" value="202518" />
+                      <option name="stepikChangeStatus" value="Info and Content changed" />
+                      <option name="files">
+                        <map>
+                          <entry key="hello_someone.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="hello_someone.py" />
+                                <option name="text" value="def hello_someone(name):&#10;    return &quot;Hello, {}!&quot;.format(name)&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="test_hello_someone.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="use self.assertEqual() to compare the function output to the expected value" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="94" />
+                                          <option name="offset" value="140" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="52" />
+                                      <option name="offset" value="140" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="test that the function returns &quot;Hello, World!&quot; when called with the appropriate input argument" />
+                                      <option name="possibleAnswer" value="self.assertEqual(hello_someone(&quot;World&quot;), &quot;Hello, World!&quot;)" />
+                                      <option name="selected" value="true" />
+                                      <option name="status" value="Solved" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="true" />
+                                <option name="name" value="test_hello_someone.py" />
+                                <option name="text" value="import unittest&#10;&#10;from hello_someone import hello_someone&#10;&#10;&#10;class TestHelloWorld(unittest.TestCase):&#10;    def test_hello_world(self):&#10;        test that the function returns &quot;Hello, World!&quot; when called with the appropriate input argument&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tests.py" />
+                                <option name="text" value="import unittest.mock as mock&#10;&#10;from custom_test_helpers import check_tests_pass, check_tests_fail, \&#10;    reload_module, abort_tests&#10;from test_helper import run_common_tests, test_answer_placeholders_text_deleted, \&#10;    passed, failed, import_task_file&#10;&#10;&#10;if __name__ == '__main__':&#10;    from hello_someone import hello_someone&#10;&#10;    run_common_tests()&#10;    test_answer_placeholders_text_deleted()&#10;&#10;    task_tests_module = import_task_file()&#10;&#10;    # check that all tests pass&#10;    check_tests_pass(task_tests_module)&#10;&#10;    # check that the function hello_someone() is called at least once by the tests&#10;    counting_hello_someone = mock.Mock(wraps=hello_someone)&#10;    with mock.patch('{}.{}'.format('hello_someone', 'hello_someone'), counting_hello_someone):&#10;        module = import_task_file()&#10;        check_tests_pass(module)&#10;        if counting_hello_someone.call_count &gt; 0:&#10;            passed(&quot;Test called the 'hello_someone' function&quot;)&#10;        else:&#10;            failed(&quot;Test never called the 'hello_someone' function&quot;)&#10;&#10;    # check that the tests fail on a broken implementation&#10;    def broken_hello_someone(someone):&#10;        # omit the comma&#10;        return &quot;Hello {}!&quot;.format(someone)&#10;&#10;    with mock.patch('{}.{}'.format('hello_someone', 'hello_someone'), broken_hello_someone):&#10;        module = import_task_file()&#10;        check_tests_fail(module)&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1513857911000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&#10;&lt;p&gt;&#10;    For each test (i.e. each test method), the results will always be one of the following:&#10;&lt;/p&gt;&#10;&lt;ol&gt;&#10;    &lt;li&gt;&lt;em&gt;Success&lt;/em&gt;, which means everything worked as expected.&lt;/li&gt;&#10;    &lt;li&gt;&lt;em&gt;Failure&lt;/em&gt;, which means one of the assertions in the test failed.&lt;/li&gt;&#10;    &lt;li&gt;&lt;em&gt;Error&lt;/em&gt;, which means an uncaught exception was raised during the test.&lt;/li&gt;&#10;&lt;/ol&gt;&#10;&lt;p&gt;&#10;    There is no explicit way to make a test succeed.&#10;    Instead, a test's success depends on the absence of any failures or errors.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    &lt;strong&gt;Your objective:&lt;/strong&gt;&#10;    Implement the three test methods, so that the first succeeds,&#10;    the second fails and the third results in an error.&#10;&lt;/p&gt;&#10;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="The possible test results" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="202519" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="possible_test_results.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="to succeed, a test just needs not to fail or raise an error" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="31" />
+                                          <option name="offset" value="100" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="31" />
+                                      <option name="offset" value="100" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write a test which will succeed" />
+                                      <option name="possibleAnswer" value="pass" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="lesson1task3possible_test_results_2" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="28" />
+                                          <option name="offset" value="169" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="28" />
+                                      <option name="offset" value="169" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write a test which will fail" />
+                                      <option name="possibleAnswer" value="self.assertEqual(True, False)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="A test is erroneous if it raises an exception (without catching it)&#10;" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="38" />
+                                          <option name="offset" value="233" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="38" />
+                                      <option name="offset" value="233" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write a test which will cause an error" />
+                                      <option name="possibleAnswer" value="raise Exception()" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="possible_test_results.py" />
+                                <option name="text" value="import unittest&#10;&#10;&#10;class TestPossibleResults(unittest.TestCase):&#10;    def test_success(self):&#10;        write a test which will succeed&#10;&#10;    def test_failure(self):&#10;        write a test which will fail&#10;&#10;    def test_error(self):&#10;        write a test which will cause an error&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tests.py" />
+                                <option name="text" value="from custom_test_helpers import run_module_tests&#10;from test_helper import run_common_tests, test_answer_placeholders_text_deleted, import_task_file, passed, failed&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    test_answer_placeholders_text_deleted()&#10;&#10;    task_module = import_task_file()&#10;    test_result = run_module_tests(task_module)&#10;&#10;    if (&#10;        test_result.testsRun == 3 and&#10;        len(test_result.failures) == 1 and&#10;        len(test_result.errors) == 1&#10;    ):&#10;        passed(&quot;check number of successes, failures and errors&quot;)&#10;    else:&#10;        failed(&quot;check number of successes, failures and errors&quot;)&#10;&#10;    if not any(&#10;        &quot;test_failure&quot; in formatted_traceback&#10;        for test_case, formatted_traceback&#10;        in test_result.failures&#10;    ):&#10;        failed(&quot;test_failure should fail&quot;)&#10;    else:&#10;        passed(&quot;test_failure should fail&quot;)&#10;&#10;    if not any(&#10;        &quot;test_error&quot; in formatted_traceback&#10;        for test_case, formatted_traceback&#10;        in test_result.errors&#10;    ):&#10;        failed(&quot;test_error should cause an error&quot;)&#10;    else:&#10;        passed(&quot;test_error should cause an error&quot;)&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1513857911000" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="28794" />
+              </Lesson>
+              <Lesson>
+                <option name="customPresentableName" />
+                <option name="id" value="50393" />
+                <option name="index" value="2" />
+                <option name="name" value="Assertion Types" />
+                <option name="stepikChangeStatus" value="Up to date" />
+                <option name="updateDate" value="1550503793000" />
+                <option name="taskList">
+                  <list>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&#10;&lt;p&gt;&#10;    So far we've been using self.assertEqual() in our tests to check expected results.&#10;    There are many other such assertion methods available.&#10;    Let's explore them!&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    The most basic assertion method is assertTrue().&#10;    It is called with a single argument and simply checks whether it is true.&#10;    (It actually checks whether a value is &quot;truthy&quot;, i.e. considered true in a boolean context. See details below.)&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    It is possible to write tests using only assertTrue().&#10;    For example, instead of using assertEqual(a, b), we could use assertTrue(a == b).&#10;    However, using more specific assertions brings many benefits:&#10;    &lt;/p&gt;&lt;ul&gt;&#10;        &lt;li&gt;More detailed information upon test failure&lt;/li&gt;&#10;        &lt;li&gt;Improved test code readability&lt;/li&gt;&#10;        &lt;li&gt;Non-trivial assertions save time and effort&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;p&gt;&#10;    In this lesson, we'll explore many of the different assertions available.&#10;    Note that you can always look through&#10;    &lt;a href=&quot;https://docs.python.org/3/library/unittest.html#assert-methods&quot;&gt;&#10;        the full list of available assertion methods&#10;    &lt;/a&gt;.&#10;&lt;/p&gt;&#10;&lt;h3&gt;What does &quot;truthy&quot; mean?&lt;/h3&gt;&#10;&lt;p&gt;&#10;    In Python, many values are considered either true or false when in a boolean context,&#10;    e.g. when used as the condition of an &quot;if&quot; statement.&#10;    For example, the integer zero is considered false, while all other integers are considered true.&#10;    Most containers are considered false when empty and true when non-empty.&#10;    You can check whether a value is &quot;truthy&quot; by passing it to the bool() function.&#10;    For example, bool([1,2,3]) == True, and bool([]) == False.&#10;&lt;/p&gt;&#10;&lt;h3&gt;Re-using test code&lt;/h3&gt;&#10;&lt;p&gt;&#10;    The principles for writing test code are slightly different than when writing &quot;normal&quot; code.&#10;    For example, tests should be written in the most straight-forward manner possible,&#10;    so that what they test and how is as easy to understand as possible. This is so that when&#10;    a test fails, it is easy to figure out what is causing the failure.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    To achieve this, it is often better to duplicate some code rather than create abstractions for&#10;    everything. But, of course, it is a bad idea to duplicate large and complex code many times.&#10;    In such cases, the simplest and most useful thing to do is to create helper methods in the&#10;    TestCase class. In the following exercise, you will work with an example of this.&#10;&lt;/p&gt;&#10;&lt;h2&gt;Your objective:&lt;/h2&gt;&#10;&lt;p&gt;&#10;    Implement the following tests which check the &quot;truthiness&quot; of various values.&#10;    Use only assertTrue and assertFalse.&#10;&lt;/p&gt;&#10;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="1" />
+                      <option name="name" value="Assertion Types" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="202520" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tests.py" />
+                                <option name="text" value="import functools&#10;import unittest&#10;import unittest.mock&#10;&#10;from custom_test_helpers import inspect_assertions, run_test_case_tests, normalize_call_args&#10;from test_helper import run_common_tests, test_answer_placeholders_text_deleted, import_task_file, passed, failed, \&#10;    get_answer_placeholders&#10;&#10;&#10;def check_integer_truthiness_tests():&#10;    task_module = import_task_file()&#10;    TestIntegerTruthiness = inspect_assertions(task_module.TestIntegerTruthiness)&#10;    test_result = run_test_case_tests(TestIntegerTruthiness)&#10;&#10;    if not test_result.wasSuccessful():&#10;        failed(&quot;Some of the TestIntegerTruthiness tests failed!&quot;)&#10;&#10;    placeholder_windows = get_answer_placeholders()[0:3]&#10;    test_zero_window, test_one_window, test_other_value_window = placeholder_windows&#10;&#10;    # check test_zero&#10;    n_assertions = TestIntegerTruthiness.get_test_method_total_call_count(&quot;test_zero&quot;)&#10;    test_name = &quot;TestIntegerTruthiness.test_zero&quot;&#10;    if n_assertions &gt; 1:&#10;        failed(name=test_name, message=&quot;must use only one assertion&quot;)&#10;    elif n_assertions == 0:&#10;        failed(name=test_name, message=&quot;must use an assertion&quot;)&#10;    elif unittest.mock.call(0) in TestIntegerTruthiness.per_method_counters[&quot;test_zero&quot;][&quot;assertFalse&quot;].call_args_list:&#10;        passed(name=test_name)&#10;    else:&#10;        failed(name=test_name)&#10;&#10;    # check test_one&#10;    n_assertions = TestIntegerTruthiness.get_test_method_total_call_count(&quot;test_one&quot;)&#10;    test_name = &quot;TestIntegerTruthiness.test_one&quot;&#10;    if n_assertions &gt; 1:&#10;        failed(name=test_name, message=&quot;must use only one assertion&quot;)&#10;    elif n_assertions == 0:&#10;        failed(name=test_name, message=&quot;must use an assertion&quot;)&#10;    elif unittest.mock.call(1) in TestIntegerTruthiness.per_method_counters[&quot;test_one&quot;][&quot;assertTrue&quot;].call_args_list:&#10;        passed(name=test_name)&#10;    else:&#10;        failed(name=test_name)&#10;&#10;    # check test_other_value&#10;    wrapped_assertTrue = TestIntegerTruthiness.per_method_counters[&quot;test_other_value&quot;][&quot;assertTrue&quot;]&#10;    n_assertions = TestIntegerTruthiness.get_test_method_total_call_count(&quot;test_other_value&quot;)&#10;    test_name = &quot;TestIntegerTruthiness.test_other_value&quot;&#10;    if n_assertions &gt; 1:&#10;        failed(name=test_name, message=&quot;must use only one assertion&quot;)&#10;    elif n_assertions == 0:&#10;        failed(name=test_name, message=&quot;must use an assertion&quot;)&#10;    elif (&#10;            &quot;self.assertTrue&quot; in test_other_value_window and&#10;            wrapped_assertTrue.call_count &gt; 0 and&#10;            isinstance(wrapped_assertTrue.call_args[0][0], int) and&#10;            wrapped_assertTrue.call_args[0][0] not in {0, 1}&#10;    ):&#10;        passed(name=test_name)&#10;    else:&#10;        failed(name=test_name)&#10;&#10;&#10;def check_none_truthiness_tests():&#10;    task_module = import_task_file()&#10;    TestNoneTruthiness = inspect_assertions(task_module.TestNoneTruthiness)&#10;    test_result = run_test_case_tests(TestNoneTruthiness)&#10;&#10;    if not test_result.wasSuccessful():&#10;        failed(&quot;Some of the TestIntegerTruthiness tests failed!&quot;)&#10;&#10;    wrapped_assertFalse = TestNoneTruthiness.per_method_counters[&quot;test_none&quot;][&quot;assertFalse&quot;]&#10;&#10;    n_assertions = TestNoneTruthiness.get_test_method_total_call_count(&quot;test_none&quot;)&#10;    test_name = &quot;TestNoneTruthiness.test_none&quot;&#10;    if n_assertions &gt; 1:&#10;        failed(name=test_name, message=&quot;must use only one assertion&quot;)&#10;    elif n_assertions == 0:&#10;        failed(name=test_name, message=&quot;must use an assertion&quot;)&#10;    elif unittest.mock.call(None) in TestNoneTruthiness.per_method_counters[&quot;test_none&quot;][&quot;assertFalse&quot;].call_args_list:&#10;        passed(name=test_name)&#10;    else:&#10;        failed(name=test_name)&#10;&#10;&#10;def check_test_container_class_assertion_methods():&#10;    window1, window2 = get_answer_placeholders()[4:6]&#10;    if window1 == 'False' and window2 == 'True':&#10;        passed()&#10;    else:&#10;        failed()&#10;&#10;&#10;def conditional_passed_or_failed(condition, name):&#10;    if condition:&#10;        passed(name=name)&#10;    else:&#10;        failed(name=name)&#10;&#10;&#10;def check_container_truthiness_tests():&#10;    task_module = import_task_file()&#10;    test_case_class = inspect_assertions(task_module.TestContainerTruthiness)&#10;    test_result = run_test_case_tests(test_case_class)&#10;&#10;    conditional_passed_or_failed(test_result.wasSuccessful(), &quot;TestContainerTruthiness tests pass&quot;)&#10;&#10;    for (test_method_name, empty_container) in [&#10;        (&quot;test_list&quot;, []),&#10;        (&quot;test_tuple&quot;, ()),&#10;        (&quot;test_set&quot;, set()),&#10;        (&quot;test_dict&quot;, {}),&#10;    ]:&#10;        calls = test_case_class.per_method_counters[test_method_name][&quot;assertFalse&quot;].call_args_list&#10;        normalized_calls = [&#10;            normalize_call_args(c, func=functools.partial(test_case_class.assertFalse, None))&#10;            for c in calls&#10;        ]&#10;        conditional_passed_or_failed(&#10;            condition=any(args[0] == empty_container for args, kwargs in normalized_calls),&#10;            name=&quot;{} properly tested empty container&quot;.format(test_method_name),&#10;        )&#10;&#10;        calls = test_case_class.per_method_counters[test_method_name][&quot;assertTrue&quot;].call_args_list&#10;        normalized_calls = [&#10;            normalize_call_args(c, func=functools.partial(test_case_class.assertTrue, None))&#10;            for c in calls&#10;        ]&#10;        conditional_passed_or_failed(&#10;            condition=any(&#10;                type(args[0]) == type(empty_container) and args[0] != empty_container&#10;                for args, kwargs in normalized_calls&#10;            ),&#10;            name=&quot;{} properly tested non-empty container&quot;.format(test_method_name),&#10;        )&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    test_answer_placeholders_text_deleted()&#10;&#10;    check_integer_truthiness_tests()&#10;    check_none_truthiness_tests()&#10;    check_test_container_class_assertion_methods()&#10;    check_container_truthiness_tests()&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="truthiness.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="use self.assertFalse" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="169" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="169" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="self.assertFalse(0)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="287" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="287" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="self.assertTrue(1)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="411" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="411" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="self.assertTrue(3)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="None's truthiness is False&#10;" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="10" />
+                                          <option name="offset" value="563" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="10" />
+                                      <option name="offset" value="563" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="MethodName" />
+                                      <option name="possibleAnswer" value="False" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="33" />
+                                          <option name="offset" value="895" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="33" />
+                                      <option name="offset" value="895" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="choose the proper assetion method" />
+                                      <option name="possibleAnswer" value="False" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="33" />
+                                          <option name="offset" value="965" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="33" />
+                                      <option name="offset" value="965" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="choose the proper assetion method" />
+                                      <option name="possibleAnswer" value="True" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="6" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="49" />
+                                          <option name="offset" value="1054" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="49" />
+                                      <option name="offset" value="1054" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test using _test_container_class()" />
+                                      <option name="possibleAnswer" value="self._test_container_class([], [False])" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="7" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="49" />
+                                          <option name="offset" value="1139" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="49" />
+                                      <option name="offset" value="1139" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test using _test_container_class()" />
+                                      <option name="possibleAnswer" value="self._test_container_class((), (False,))" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="8" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="49" />
+                                          <option name="offset" value="1222" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="49" />
+                                      <option name="offset" value="1222" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test using _test_container_class()" />
+                                      <option name="possibleAnswer" value="self._test_container_class(set(), {False})" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="9" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="49" />
+                                          <option name="offset" value="1306" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="49" />
+                                      <option name="offset" value="1306" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test using _test_container_class()" />
+                                      <option name="possibleAnswer" value="self._test_container_class({}, {False: False})" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="truthiness.py" />
+                                <option name="text" value="import unittest&#10;&#10;&#10;class TestIntegerTruthiness(unittest.TestCase):&#10;    def test_zero(self):&#10;        &quot;&quot;&quot;check that the thruthiness of the integer zero is False&quot;&quot;&quot;&#10;        write this test!&#10;&#10;    def test_one(self):&#10;        &quot;&quot;&quot;check that the thruthiness of the integer one is True&quot;&quot;&quot;&#10;        write this test!&#10;&#10;    def test_other_value(self):&#10;        &quot;&quot;&quot;check the thruthiness of an integer other than zero&quot;&quot;&quot;&#10;        write this test!&#10;&#10;&#10;class TestNoneTruthiness(unittest.TestCase):&#10;    def test_none(self):&#10;        &quot;&quot;&quot;check the thruthiness of None&quot;&quot;&quot;&#10;        self.assertMethodName(None)&#10;&#10;&#10;class TestContainerTruthiness(unittest.TestCase):&#10;    # Note:&#10;    # -----&#10;    # Methods whose name starts with &quot;_test&quot; are not considered test methods,&#10;    # just like all methods whose name doesn't begin with &quot;test&quot;.&#10;&#10;    def _test_container_class(self, empty_container, non_empty_container):&#10;        self.assertchoose the proper assetion method(empty_container)&#10;        self.assertchoose the proper assetion method(non_empty_container)&#10;&#10;    def test_list(self):&#10;        implement this test using _test_container_class()&#10;&#10;    def test_tuple(self):&#10;        implement this test using _test_container_class()&#10;&#10;    def test_set(self):&#10;        implement this test using _test_container_class()&#10;&#10;    def test_dict(self):&#10;        implement this test using _test_container_class()&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1513857932000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&#10;&lt;p&gt;&#10;    Most assertions check whether running some code yields the expected result.&#10;    Usually, this means acquiring one or more values and comparing them to expected values.&#10;    For this the various comparison assertions are very useful.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    We've already mentioned assertEqual as well as assertTrue and assertFalse, all of&#10;    which are comparison assertions. Another such assertion method is&#10;    &lt;code&gt;assertNotEqual(a, b)&lt;/code&gt;, which is the opposite of &lt;code&gt;assertEqual&lt;/code&gt;.&#10;    Similarly, most assertion methods have matching negated methods which check the&#10;    opposite condition.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Some additional comparison assertions are:&#10;    &lt;/p&gt;&lt;ul&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertIs(a, b)&lt;/code&gt;:&lt;/strong&gt; check whether a is b&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertIsNot(a, b)&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertIsNone(a)&lt;/code&gt;:&lt;/strong&gt; check whether a is None&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertIsNotNone(a)&lt;/code&gt;&lt;/strong&gt;&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertGreater(a, b)&lt;/code&gt;:&lt;/strong&gt; check whether a &amp;gt; b&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertGreaterEqual(a, b)&lt;/code&gt;:&lt;/strong&gt; check whether a &amp;gt;= b&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertLess(a, b)&lt;/code&gt;:&lt;/strong&gt; check whether a &amp;lt; b&lt;/li&gt;&#10;        &lt;li&gt;&lt;strong&gt;&lt;code&gt;assertLessEqual(a, b)&lt;/code&gt;:&lt;/strong&gt; check whether a &amp;lt;= b&lt;/li&gt;&#10;    &lt;/ul&gt;&#10;&lt;p&gt;&lt;/p&gt;&#10;&lt;h2&gt;Your objective:&lt;/h2&gt;&#10;&lt;p&gt;&#10;    Use the various comparison assertions to properly implement the following tests.&#10;&lt;/p&gt;&#10;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="2" />
+                      <option name="name" value="Comparison Assertions" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="202521" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="comparison_assertions.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="312" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="312" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="for n_attempt in range(100):&#10;            value = random_not_42()&#10;            self.assertNotEqual(value, 42)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="use only assertIsNone and assertIsNotNone" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="1146" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="1146" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="self.assertIsNotNone(find_foo('foo'))" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="use only assertIsNone and assertIsNotNone" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="1288" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="1288" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="for s in self.strings_with_foo:&#10;            self.assertIsNotNone(find_foo(s))" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="use only assertIsNone and assertIsNotNone" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="16" />
+                                          <option name="offset" value="1433" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="16" />
+                                      <option name="offset" value="1433" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="write this test!" />
+                                      <option name="possibleAnswer" value="for s in self.strings_without_foo:&#10;            self.assertIsNone(find_foo(s))" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="24" />
+                                          <option name="offset" value="1787" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="24" />
+                                      <option name="offset" value="1787" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="check the returned value" />
+                                      <option name="possibleAnswer" value="self.assertGreaterEqual(value, start)&#10;            self.assertLessEqual(value, end)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="5" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="24" />
+                                          <option name="offset" value="2155" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="24" />
+                                      <option name="offset" value="2155" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="check the returned value" />
+                                      <option name="possibleAnswer" value="self.assertGreater(value, start)&#10;            self.assertLess(value, end)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="comparison_assertions.py" />
+                                <option name="text" value="import random&#10;import unittest&#10;&#10;from tested_code import random_not_42, find_foo, \&#10;    random_float_between_inclusive, random_float_between_noninclusive&#10;&#10;&#10;class TestRandomNot42(unittest.TestCase):&#10;    def test_many_values(self):&#10;        &quot;&quot;&quot;call the function 100 times and make sure the result isn't 42&quot;&quot;&quot;&#10;        write this test!&#10;&#10;&#10;class TestFindFoo(unittest.TestCase):&#10;    &quot;&quot;&quot;tests for the find_foo() function&#10;&#10;    find_foo(s) returns an object if &quot;foo&quot; is a sub-string of s,&#10;    and None otherwise.&#10;    &quot;&quot;&quot;&#10;    # valid_names = [&#10;    #     'foo',&#10;    #     'Bar',&#10;    #     'foorBar',&#10;    #     'foo_bar',&#10;    #     '_fooBar',&#10;    #     'foo1',&#10;    #     'foo_',&#10;    # ]&#10;    #&#10;    # invalid_names = [&#10;    #     '1foo',&#10;    #     'foo-bar',&#10;    #     '$foo',&#10;    #     'foo bar',&#10;    #     'foo+bar4ever',&#10;    # ]&#10;&#10;    strings_with_foo = [&#10;        'foo',&#10;        'aaa foo bbb',&#10;        'aaa foo',&#10;        'foo bbb',&#10;        'no foo for you, come back oen year!'&#10;    ]&#10;&#10;    strings_without_foo = [&#10;        'boo',&#10;        'aaa bbb',&#10;        'four',&#10;    ]&#10;&#10;    def test_identical(self):&#10;        &quot;&quot;&quot;check that find_foo finds 'foo' in 'foo'&quot;&quot;&quot;&#10;        write this test!&#10;&#10;    def test_strings_with_foo(self):&#10;        &quot;&quot;&quot;check that find_foo finds 'foo' in all of the strings with 'foo'&quot;&quot;&quot;&#10;        write this test!&#10;&#10;    def test_strings_without_foo(self):&#10;        &quot;&quot;&quot;check that find_foo finds 'foo' in all of the strings with 'foo'&quot;&quot;&quot;&#10;        write this test!&#10;&#10;&#10;class TestRandomFloatBetweenInclusive(unittest.TestCase):&#10;    def test_random_values(self):&#10;        for i in range(100):&#10;            start = random.random()&#10;            end = random.random()&#10;            if start &gt; end:&#10;                start, end = end, start&#10;            value = random_float_between_inclusive(start, end)&#10;&#10;            check the returned value&#10;&#10;&#10;class TestRandomFloatBetweenNoninclusive(unittest.TestCase):&#10;    def test_random_values(self):&#10;        for i in range(100):&#10;            start = random.random()&#10;            end = random.random()&#10;            if start &gt; end:&#10;                start, end = end, start&#10;            value = random_float_between_noninclusive(start, end)&#10;&#10;            check the returned value&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="tested_code.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tested_code.py" />
+                                <option name="text" value="import random&#10;import re&#10;&#10;&#10;def random_not_42():&#10;    value = 42&#10;    while value == 42:&#10;        value = random.randint(-(2 ** 31), 2 ** 31 - 1)&#10;    return value&#10;&#10;&#10;def find_foo(s):&#10;    return re.search(r&quot;foo&quot;, s)&#10;&#10;&#10;def random_float_between_inclusive(a, b):&#10;    return random.uniform(a, b)&#10;&#10;&#10;def random_float_between_noninclusive(a, b):&#10;    if a == b:&#10;        raise ValueError(&quot;a must be different than b!&quot;)&#10;    result = a&#10;    while result == a or result == b:&#10;        result = random.uniform(a, b)&#10;    return result" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tests.py" />
+                                <option name="text" value="from custom_test_helpers import run_test_case_tests, inspect_assertions, \&#10;    normalize_call_args, check_used_only_assertions&#10;from test_helper import passed, failed, run_common_tests, import_task_file, \&#10;    test_answer_placeholders_text_deleted&#10;&#10;&#10;import itertools&#10;import unittest.mock&#10;from tested_code import find_foo&#10;import re&#10;&#10;&#10;def check_test_not_42():&#10;    has_failed = False&#10;&#10;    task_module = import_task_file()&#10;    test_case_class = inspect_assertions(task_module.TestRandomNot42)&#10;    test_result = run_test_case_tests(test_case_class)&#10;&#10;    if not test_result.wasSuccessful():&#10;        failed(&quot;at least one test failed&quot;)&#10;        has_failed = True&#10;&#10;    if not check_used_only_assertions(test_case_class, [&quot;assertNotEqual&quot;]):&#10;        has_failed = True&#10;&#10;&#10;    mock_random_not_42 = unittest.mock.Mock(return_value=42)&#10;    with unittest.mock.patch('tested_code.random_not_42', mock_random_not_42):&#10;        task_module = import_task_file()&#10;        test_result = run_test_case_tests(task_module.TestRandomNot42)&#10;        if test_result.wasSuccessful():&#10;            failed(&quot;tests passed with broken implementation&quot;)&#10;            has_failed = True&#10;&#10;    if not has_failed:&#10;        passed()&#10;&#10;&#10;def check_test_find_foo():&#10;    has_failed = False&#10;&#10;    task_module = import_task_file()&#10;    test_case_class = inspect_assertions(task_module.TestFindFoo)&#10;    test_result = run_test_case_tests(test_case_class)&#10;&#10;    if not test_result.wasSuccessful():&#10;        failed(&quot;at least one test failed&quot;)&#10;        has_failed = True&#10;&#10;    if not check_used_only_assertions(&#10;            test_case_class,&#10;            [&quot;assertIsNone&quot;, &quot;assertIsNotNone&quot;],&#10;    ):&#10;        has_failed = True&#10;&#10;    # check that all of the substrings were tested&#10;    mock_find_foo = unittest.mock.Mock(wraps=find_foo)&#10;    with unittest.mock.patch('tested_code.find_foo', mock_find_foo):&#10;        task_module = import_task_file()&#10;        test_case_class = task_module.TestFindFoo&#10;        run_test_case_tests(test_case_class)&#10;&#10;        normalized_call_args = [&#10;            normalize_call_args(call_args, func=find_foo)&#10;            for call_args in mock_find_foo.call_args_list&#10;        ]&#10;        for substring in itertools.chain(&#10;                [&quot;foo&quot;],&#10;                test_case_class.strings_with_foo,&#10;                test_case_class.strings_without_foo&#10;        ):&#10;            if ((substring,), {}) not in normalized_call_args:&#10;                failed(&quot;substring \&quot;{}\&quot; not tested&quot;.format(substring))&#10;                has_failed = True&#10;&#10;    # check with broken find_foo()&#10;    def find_fo(s):&#10;        return re.search(r&quot;fo&quot;, s)&#10;    for broken_find_fo in [&#10;        find_fo,&#10;        lambda s: None,&#10;        lambda s: 0,&#10;    ]:&#10;        with unittest.mock.patch('tested_code.find_foo', broken_find_fo):&#10;            task_module = import_task_file()&#10;            test_result = run_test_case_tests(task_module.TestFindFoo)&#10;            if test_result.wasSuccessful():&#10;                failed(&quot;tests passed with broken implementation&quot;)&#10;                has_failed = True&#10;&#10;    if not has_failed:&#10;        passed()&#10;&#10;&#10;def check_test_random_float_between_inclusive():&#10;    has_failed = False&#10;&#10;    task_module = import_task_file()&#10;    test_case_class = inspect_assertions(task_module.TestRandomFloatBetweenInclusive)&#10;    test_result = run_test_case_tests(test_case_class)&#10;&#10;    if not test_result.wasSuccessful():&#10;        failed(&quot;at least one test failed&quot;)&#10;        has_failed = True&#10;&#10;    if not check_used_only_assertions(&#10;            test_case_class,&#10;            [&quot;assertGreaterEqual&quot;, &quot;assertLessEqual&quot;],&#10;    ):&#10;        has_failed = True&#10;&#10;    for broken_func in [&#10;        lambda a, b: a - 1,&#10;        lambda a, b: b + 1,&#10;    ]:&#10;        with unittest.mock.patch('tested_code.random_float_between_inclusive', broken_func):&#10;            task_module = import_task_file()&#10;            test_result = run_test_case_tests(task_module.TestRandomFloatBetweenInclusive)&#10;            if test_result.wasSuccessful():&#10;                failed(&quot;tests passed with broken implementation&quot;)&#10;                has_failed = True&#10;&#10;    if not has_failed:&#10;        passed()&#10;&#10;&#10;def check_test_random_float_between_noninclusive():&#10;    has_failed = False&#10;&#10;    task_module = import_task_file()&#10;    test_case_class = inspect_assertions(task_module.TestRandomFloatBetweenNoninclusive)&#10;    test_result = run_test_case_tests(test_case_class)&#10;&#10;    if not test_result.wasSuccessful():&#10;        failed(&quot;at least one test failed&quot;)&#10;        has_failed = True&#10;&#10;    if not check_used_only_assertions(&#10;            test_case_class,&#10;            [&quot;assertGreater&quot;, &quot;assertLess&quot;],&#10;    ):&#10;        has_failed = True&#10;&#10;    for broken_func in [&#10;        lambda a, b: a - 1,&#10;        lambda a, b: b + 1,&#10;        lambda a, b: a,&#10;        lambda a, b: b,&#10;    ]:&#10;        with unittest.mock.patch('tested_code.random_float_between_noninclusive', broken_func):&#10;            task_module = import_task_file()&#10;            test_result = run_test_case_tests(task_module.TestRandomFloatBetweenNoninclusive)&#10;            if test_result.wasSuccessful():&#10;                failed(&quot;tests passed with broken implementation&quot;)&#10;                has_failed = True&#10;&#10;    if not has_failed:&#10;        passed()&#10;&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    test_answer_placeholders_text_deleted()&#10;&#10;    check_test_not_42()&#10;    check_test_find_foo()&#10;    check_test_random_float_between_inclusive()&#10;    check_test_random_float_between_noninclusive()&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1550503793000" />
+                    </EduTask>
+                    <EduTask>
+                      <option name="customPresentableName" />
+                      <option name="descriptionFormat" value="HTML" />
+                      <option name="descriptionText" value="&#10;&lt;p&gt;&#10;    Several assertion methods are especially useful for working with containers.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    &lt;strong&gt;&lt;code&gt;assertIn(x, container)&lt;/code&gt;&lt;/strong&gt; and&#10;    &lt;strong&gt;&lt;code&gt;assertNotIn(x, container)&lt;/code&gt;&lt;/strong&gt;&#10;    check whether x is (or isn't) in the container.&#10;    If the assertion fails, you will get a much more informative message then if&#10;    you had just used &lt;code&gt;self.assertTrue(x in container)&lt;/code&gt;.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    Even more useful is &lt;strong&gt;&lt;code&gt;assertCountEqual(a, b)&lt;/code&gt;&lt;/strong&gt;.&#10;    Often, when the result of some code is a container, we want to check that its&#10;    contents are identical to a known collection of values, &lt;em&gt;regardless of order&lt;/em&gt;.&#10;    &lt;code&gt;assertCountEqual&lt;/code&gt; takes care of the details, and makes sure that the&#10;    items in both containers are the same. Specifically, &lt;code&gt;assertCountEqual&lt;/code&gt;&#10;    makes sure that values which appear more than once in the containers appear the&#10;    same number of times; hence its name.&#10;&lt;/p&gt;&#10;&lt;p&gt;&#10;    In most cases, when checking the values in a container, we &lt;em&gt;should&lt;/em&gt; ignore&#10;    the order in which they are returned. Except, of course, if their order matters;&#10;    in this case, just use &lt;code&gt;assertEqual&lt;/code&gt; instead.&#10;&lt;/p&gt;&#10;&lt;h2&gt;Your objective:&lt;/h2&gt;&#10;&lt;p&gt;&#10;    Implement the following test methods, so that the tests all pass for the&#10;    &lt;code&gt;random_shuffle()&lt;/code&gt; function, but at least one test fails for&#10;    each of the broken implementations.&#10;&lt;/p&gt;&#10;&#10;" />
+                      <option name="feedbackLink">
+                        <FeedbackLink>
+                          <option name="link" />
+                          <option name="type" value="STEPIK" />
+                        </FeedbackLink>
+                      </option>
+                      <option name="index" value="3" />
+                      <option name="name" value="Container Assertions" />
+                      <option name="record" value="-1" />
+                      <option name="status" value="Unchecked" />
+                      <option name="stepId" value="202522" />
+                      <option name="stepikChangeStatus" value="Up to date" />
+                      <option name="files">
+                        <map>
+                          <entry key="container_assertions.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="0" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="20" />
+                                          <option name="offset" value="1970" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="1970" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test!" />
+                                      <option name="possibleAnswer" value="self.assertCountEqual(random_shuffle([]), [])" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="make sure to test with lists of various length" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="1" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="20" />
+                                          <option name="offset" value="2136" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="2136" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test!" />
+                                      <option name="possibleAnswer" value="values = [1, 1, 1, 1]&#10;        self.assertEqual(len(random_shuffle(values)), 4)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="make sure to check with a list of values where some value appear more than once" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="2" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="20" />
+                                          <option name="offset" value="2294" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="2294" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test!" />
+                                      <option name="possibleAnswer" value="values = [1, 1, 1, 1]&#10;        self.assertCountEqual(random_shuffle(values), values)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="one way to do this is to create a large list of values, shuffle it, and compare the result to the original " />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="3" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="20" />
+                                          <option name="offset" value="2481" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="2481" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test!" />
+                                      <option name="possibleAnswer" value="values = list(range(100))&#10;        values_copy = values.copy()&#10;        self.assertNotEqual(random_shuffle(values), values_copy)" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                    <AnswerPlaceholder>
+                                      <option name="hints">
+                                        <list>
+                                          <option value="create a (long) list of values, pass it to the function, and check that doing so did not change original list" />
+                                        </list>
+                                      </option>
+                                      <option name="index" value="4" />
+                                      <option name="initialState">
+                                        <MyInitialState>
+                                          <option name="length" value="20" />
+                                          <option name="offset" value="2639" />
+                                        </MyInitialState>
+                                      </option>
+                                      <option name="initializedFromDependency" value="false" />
+                                      <option name="length" value="20" />
+                                      <option name="offset" value="2639" />
+                                      <option name="placeholderDependency" />
+                                      <option name="placeholderText" value="implement this test!" />
+                                      <option name="possibleAnswer" value="values = list(range(100))&#10;        random_shuffle(values)&#10;        self.assertEqual(values, list(range(100)))" />
+                                      <option name="selected" value="false" />
+                                      <option name="status" value="Unchecked" />
+                                      <option name="studentAnswer" />
+                                      <option name="useLength" value="true" />
+                                    </AnswerPlaceholder>
+                                  </list>
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="container_assertions.py" />
+                                <option name="text" value="import unittest&#10;import random&#10;&#10;&#10;def random_shuffle(values):&#10;    &quot;&quot;&quot;return a new list of the given values in random order&quot;&quot;&quot;&#10;    new_values = list(values)&#10;    random.shuffle(new_values)&#10;    return new_values&#10;&#10;&#10;def broken_shuffle_1(values):&#10;    &quot;&quot;&quot;this doesn't actually shuffle anything!&quot;&quot;&quot;&#10;    return list(values)&#10;&#10;&#10;def broken_shuffle_2(values):&#10;    &quot;&quot;&quot;this returns a single instance of each value, shuffled&quot;&quot;&quot;&#10;    new_values = list(set(values))&#10;    random.shuffle(new_values)&#10;    return new_values&#10;&#10;&#10;def broken_shuffle_3(values):&#10;    &quot;&quot;&quot;this always returns the values sorted&quot;&quot;&quot;&#10;    return list(sorted(values))&#10;&#10;&#10;def broken_shuffle_4(values):&#10;    &quot;&quot;&quot;this shuffles the values and returns a new list, but also changes the given list&quot;&quot;&quot;&#10;    random.shuffle(values)&#10;    return list(values)&#10;&#10;&#10;def broken_shuffle_5(values):&#10;    &quot;&quot;&quot;this shuffles the given list of values and returns it&quot;&quot;&quot;&#10;    random.shuffle(values)&#10;    return values&#10;&#10;&#10;def broken_shuffle_6(values):&#10;    &quot;&quot;&quot;this returns a list of the same length but with unrelated values&quot;&quot;&quot;&#10;    new_values = list(range(len(values)))&#10;    random.shuffle(new_values)&#10;    return new_values&#10;&#10;&#10;def broken_shuffle_7(values):&#10;    &quot;&quot;&quot;this is broken in a hard to find way...&quot;&quot;&quot;&#10;    new_values = []&#10;    while True:&#10;        value_index = random.randrange(0, len(values))&#10;        new_values.append(values.pop(value_index))&#10;        if len(values) == 0:&#10;            break&#10;    return new_values&#10;&#10;&#10;class TestRandomShuffle(unittest.TestCase):&#10;    &quot;&quot;&quot;unit tests for the random_shuffle() function&quot;&quot;&quot;&#10;&#10;    # IMPORTANT NOTE !!!&#10;    # In these tests, just call the random_shuffle() function&#10;    # when you want to call the tested function. Never call any&#10;    # of the &quot;broken_...&quot; functions; those are just here for you&#10;    # to look at. Don't worry, the tests will be run with them as&#10;    # well, using some deep magic ;)&#10;&#10;    def test_empty(self):&#10;        &quot;&quot;&quot;check that giving an empty list results in an empty list&quot;&quot;&quot;&#10;        print(&quot;empty&quot;)&#10;        implement this test!&#10;&#10;    def test_same_length(self):&#10;        &quot;&quot;&quot;check that the returned list is of the same length as the one givne&quot;&quot;&quot;&#10;        print(&quot;same&quot;)&#10;        implement this test!&#10;&#10;    def test_same_values(self):&#10;        &quot;&quot;&quot;check that the values in the return list are the same&quot;&quot;&quot;&#10;        print(&quot;same value&quot;)&#10;        implement this test!&#10;&#10;    def test_values_are_shuffled(self):&#10;        &quot;&quot;&quot;check that the function does actually return the values in a different order&quot;&quot;&quot;&#10;        print(&quot;shuffled&quot;)&#10;        implement this test!&#10;&#10;    def test_input_not_mutated(self):&#10;        &quot;&quot;&quot;check that the input list of values is not mutated&quot;&quot;&quot;&#10;        print(&quot;mutated&quot;)&#10;        implement this test!&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="true" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                          <entry key="tests.py">
+                            <value>
+                              <TaskFile>
+                                <option name="answerPlaceholders">
+                                  <list />
+                                </option>
+                                <option name="highlightErrors" value="false" />
+                                <option name="name" value="tests.py" />
+                                <option name="text" value="from custom_test_helpers import check_tests_pass, get_test_method_names, \&#10;    run_test_case_tests&#10;from test_helper import passed, failed, run_common_tests, \&#10;    test_answer_placeholders_text_deleted, import_task_file&#10;&#10;&#10;def check_tests_fail_on_broken_implementations():&#10;    expected_results = {&#10;        'broken_shuffle_1': {&#10;            'test_empty': True,&#10;            'test_same_length': True,&#10;            'test_same_values': True,&#10;            'test_values_are_shuffled': False,&#10;            'test_input_not_mutated': True,&#10;        },&#10;        'broken_shuffle_2': {&#10;            'test_empty': True,&#10;            'test_same_length': False,&#10;            'test_same_values': False,&#10;            'test_values_are_shuffled': None,&#10;            'test_input_not_mutated': True,&#10;        },&#10;        'broken_shuffle_3': {&#10;            'test_empty': True,&#10;            'test_same_length': True,&#10;            'test_same_values': True,&#10;            'test_values_are_shuffled': False,&#10;            'test_input_not_mutated': True,&#10;        },&#10;        'broken_shuffle_4': {&#10;            'test_empty': True,&#10;            'test_same_length': True,&#10;            'test_same_values': True,&#10;            'test_values_are_shuffled': True,&#10;            'test_input_not_mutated': False,&#10;        },&#10;        'broken_shuffle_5': {&#10;            'test_empty': True,&#10;            'test_same_length': True,&#10;            'test_same_values': True,&#10;            'test_values_are_shuffled': None,&#10;            'test_input_not_mutated': False,&#10;        },&#10;        'broken_shuffle_6': {&#10;            'test_empty': True,&#10;            'test_same_length': True,&#10;            'test_same_values': False,&#10;            'test_values_are_shuffled': None,&#10;            'test_input_not_mutated': True,&#10;        },&#10;        'broken_shuffle_7': {&#10;            'test_empty': False,&#10;            'test_same_length': None,&#10;            'test_same_values': None,&#10;            'test_values_are_shuffled': None,&#10;            'test_input_not_mutated': False,&#10;        },&#10;    }&#10;&#10;    task_module = import_task_file()&#10;    orig_random_shuffle = task_module.random_shuffle&#10;    for broken_func_name in sorted(expected_results):&#10;        task_module.random_shuffle = getattr(task_module, broken_func_name)&#10;        test_result = run_test_case_tests(task_module.TestRandomShuffle)&#10;&#10;        test_method_name2failure = {&#10;            test_case.id().rsplit('.', 1)[1]: test_case&#10;            for (test_case, msg) in test_result.failures&#10;        }&#10;        test_method_name2error = {&#10;            test_case.id().rsplit('.', 1)[1]: test_case&#10;            for (test_case, msg) in test_result.errors&#10;        }&#10;        test_method_name2failure_or_error = {}&#10;        test_method_name2failure_or_error.update(test_method_name2failure)&#10;        test_method_name2failure_or_error.update(test_method_name2error)&#10;&#10;        has_failed = False&#10;        for test_method_name in get_test_method_names(task_module.TestRandomShuffle):&#10;            expected_result = expected_results[broken_func_name][test_method_name]&#10;            if expected_result is None:&#10;                # ignore&#10;                continue&#10;&#10;            is_error_or_failure = test_method_name in test_method_name2failure_or_error&#10;&#10;            if expected_result is True and is_error_or_failure:&#10;                failed(&quot;{func_name} failed test {test_name}, which it should pass&quot;.format(&#10;                    func_name=broken_func_name,&#10;                    test_name=&quot;TestRandomShuffle.&quot;+test_method_name,&#10;                ), name=&quot;test {}&quot;.format(broken_func_name))&#10;                has_failed = True&#10;                message = [x[1] for x in test_result.failures + test_result.errors if x[0].id().rsplit('.', 1)[1] == test_method_name][0]&#10;                print(message)&#10;&#10;            elif expected_result is False and not is_error_or_failure:&#10;                failed(&quot;{func_name} passed test {test_name}, which it should fail&quot;.format(&#10;                    func_name=broken_func_name,&#10;                    test_name=&quot;TestRandomShuffle.&quot;+test_method_name,&#10;                ), name=&quot;test {}&quot;.format(broken_func_name))&#10;                has_failed = True&#10;&#10;        if not has_failed:&#10;            passed(name=&quot;test {}&quot;.format(broken_func_name))&#10;&#10;    task_module.random_shuffle = orig_random_shuffle&#10;&#10;if __name__ == '__main__':&#10;    run_common_tests()&#10;    test_answer_placeholders_text_deleted()&#10;&#10;    check_tests_pass(import_task_file())&#10;    check_tests_fail_on_broken_implementations()&#10;" />
+                                <option name="trackChanges" value="true" />
+                                <option name="trackLengths" value="true" />
+                                <option name="userCreated" value="false" />
+                                <option name="visible" value="false" />
+                              </TaskFile>
+                            </value>
+                          </entry>
+                        </map>
+                      </option>
+                      <option name="updateDate" value="1513857932000" />
+                    </EduTask>
+                  </list>
+                </option>
+                <option name="unitId" value="28795" />
+              </Lesson>
+            </list>
+          </option>
+        </EduCourse>
+      </option>
+    </StudyTaskManager>
+  </component>
+</project>

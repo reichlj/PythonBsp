@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a26e70c8-222e-4117-9f06-859dd7d18ee3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../PythonCrashCourse/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCrashCourse/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PythonCrashCourse/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../PythonCrashCourse/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Introduction/The possible test results/possible_test_results.py">
+          <provider selected="true" editor-type-id="StudyEditor">
+            <state>
+              <EduEditorState>
+                <MainEditorState relative-caret-position="95">
+                  <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
+                </MainEditorState>
+              </EduEditorState>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Introduction/Hello, World!/hello_world.py" />
+        <option value="$PROJECT_DIR$/Introduction/Your first unit test/test_hello_someone.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="35" />
+    <option name="y" value="70" />
+    <option name="width" value="2950" />
+    <option name="height" value="1800" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="Course" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Course">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Python Unit-Testing Course" type="a264ea2a:RootNode" />
+              <item name="Python Unit-Testing Course" type="ed842865:CourseNode" />
+            </path>
+            <path>
+              <item name="Python Unit-Testing Course" type="a264ea2a:RootNode" />
+              <item name="Python Unit-Testing Course" type="ed842865:CourseNode" />
+              <item name="Introduction" type="d53b8fed:LessonNode" />
+            </path>
+            <path>
+              <item name="Python Unit-Testing Course" type="a264ea2a:RootNode" />
+              <item name="Python Unit-Testing Course" type="ed842865:CourseNode" />
+              <item name="Introduction" type="d53b8fed:LessonNode" />
+              <item name="Your first unit test" type="4928525d:TaskNode" />
+            </path>
+            <path>
+              <item name="Python Unit-Testing Course" type="a264ea2a:RootNode" />
+              <item name="Python Unit-Testing Course" type="ed842865:CourseNode" />
+              <item name="Introduction" type="d53b8fed:LessonNode" />
+              <item name="The possible test results" type="4928525d:TaskNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in test_hello_someone.py">
+    <configuration name="Unittests for hello_world.TestHelloWorld.test_return_value" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python Unit-Testing Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction/Hello, World!" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;hello_world.TestHelloWorld.test_return_value&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_hello_someone.TestHelloWorld.test_hello_world" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python Unit-Testing Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction/Your first unit test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_hello_someone.TestHelloWorld.test_hello_world&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in hello_world.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python Unit-Testing Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction/Hello, World!" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Introduction/Hello, World!/hello_world.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_hello_someone.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="Python Unit-Testing Course" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Introduction/Your first unit test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Introduction/Your first unit test/test_hello_someone.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in test_hello_someone.py" />
+        <item itemvalue="Python tests.Unittests for test_hello_someone.TestHelloWorld.test_hello_world" />
+        <item itemvalue="Python tests.Unittests for hello_world.TestHelloWorld.test_return_value" />
+        <item itemvalue="Python tests.Unittests in hello_world.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_hello_world_py - 2019.03.03 at 22h 27m 24s.xml">
+      <configuration name="Unittests in hello_world.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_hello_world_TestHelloWorld_test_return_value - 2019.03.03 at 22h 27m 48s.xml">
+      <configuration name="Unittests for hello_world.TestHelloWorld.test_return_value" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_hello_world_TestHelloWorld_test_return_value - 2019.03.03 at 22h 28m 12s.xml">
+      <configuration name="Unittests for hello_world.TestHelloWorld.test_return_value" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_hello_world_TestHelloWorld_test_return_value - 2019.03.03 at 22h 28m 45s.xml">
+      <configuration name="Unittests for hello_world.TestHelloWorld.test_return_value" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_hello_someone_TestHelloWorld_test_hello_world - 2019.03.03 at 22h 32m 05s.xml">
+      <configuration name="Unittests for test_hello_someone.TestHelloWorld.test_hello_world" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_hello_someone_TestHelloWorld_test_hello_world - 2019.03.03 at 22h 34m 29s.xml">
+      <configuration name="Unittests for test_hello_someone.TestHelloWorld.test_hello_world" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_hello_someone_py - 2019.03.03 at 22h 34m 47s.xml">
+      <configuration name="Unittests in test_hello_someone.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="14" y="28" width="1180" height="720" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17290552" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Educational.CheckDetails" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32847896" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info active="true" anchor="right" id="Task" visible="true" weight="0.48306596" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Introduction/Your first unit test/hello_someone.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState />
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction/Hello, World!/hello_world.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="190">
+              <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="24" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction/Your first unit test/test_hello_someone.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState>
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Introduction/The possible test results/possible_test_results.py">
+      <provider selected="true" editor-type-id="StudyEditor">
+        <state>
+          <EduEditorState>
+            <MainEditorState relative-caret-position="95">
+              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
+            </MainEditorState>
+          </EduEditorState>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
