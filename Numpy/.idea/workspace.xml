@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c0f4f2d-9e4e-49c7-9d63-979276f457c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/histograms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/indexingFancy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpytest.py" afterDir="false" />
-    </list>
+    <list default="true" id="1c0f4f2d-9e4e-49c7-9d63-979276f457c3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +85,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -181,7 +178,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="985" y="27" width="2407" height="1855" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161017" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -189,7 +185,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.651966" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4420929" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4420929" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
