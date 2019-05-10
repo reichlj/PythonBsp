@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f1032c-85d8-4617-a7d2-153044af0712" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BeispieleKlein/k14_7_fibonacci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1_sin_cos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1_sin_cos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ex1_sin_cos.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="145">
+              <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -25,10 +27,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ex8_final.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1508">
+            <state relative-caret-position="1479">
               <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
@@ -52,7 +54,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ex1_sin_cos.py" />
         <option value="$PROJECT_DIR$/ex2_sin_cos_defaults.py" />
         <option value="$PROJECT_DIR$/ex3_sin_cos_non_defaults.py" />
         <option value="$PROJECT_DIR$/ex4_xticks_labels.py" />
@@ -60,6 +61,7 @@
         <option value="$PROJECT_DIR$/ex6_legend.py" />
         <option value="$PROJECT_DIR$/ex7_annotate.py" />
         <option value="$PROJECT_DIR$/ex8_final.py" />
+        <option value="$PROJECT_DIR$/ex1_sin_cos.py" />
       </list>
     </option>
   </component>
@@ -75,8 +77,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="284" />
-    <option name="y" value="101" />
+    <option name="x" value="1249" />
+    <option name="y" value="222" />
     <option name="width" value="2407" />
     <option name="height" value="1855" />
   </component>
@@ -86,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,11 +99,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Numpy" />
+    <property name="last_opened_file_path" value="C:/Dropbox/MdynamixVerwaltung/Motorsport/CTypes/openxrkPyCharm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -117,8 +119,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex8_final">
-    <configuration name="ex4_xticks_labels" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ex1_sin_cos">
+    <configuration name="ex1_sin_cos" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MatplotPy" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -130,7 +132,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex4_xticks_labels.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ex1_sin_cos.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -225,11 +227,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex1_sin_cos" />
         <item itemvalue="Python.ex8_final" />
         <item itemvalue="Python.ex7_annotate" />
         <item itemvalue="Python.ex6_legend" />
         <item itemvalue="Python.ex5_spines" />
-        <item itemvalue="Python.ex4_xticks_labels" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +239,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="284" y="101" width="2407" height="1855" extended-state="0" />
+    <frame x="1249" y="222" width="2407" height="1855" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27711865" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -252,22 +254,11 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.329806" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" visible="true" weight="0.3962375" />
+      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3962375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/ex1_sin_cos.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ex2_sin_cos_defaults.py">
@@ -332,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex1_sin_cos.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="145">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -342,7 +333,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ex8_final.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1508">
+        <state relative-caret-position="1479">
           <caret line="52" column="1" selection-start-line="52" selection-start-column="1" selection-end-line="52" selection-end-column="1" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
