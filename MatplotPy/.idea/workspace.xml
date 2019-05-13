@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24f1032c-85d8-4617-a7d2-153044af0712" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../BeispieleKlein/k14_7_fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../BeispieleKlein/k16_4_List_append.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKlein/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BeispieleKlein/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKlein/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BeispieleKlein/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1_sin_cos.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex1_sin_cos.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,17 +66,6 @@
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/MatplotPy.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1249" />
     <option name="y" value="222" />
@@ -88,6 +78,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,12 +90,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Dropbox/MdynamixVerwaltung/Motorsport/CTypes/openxrkPyCharm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BeispieleKlein" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -240,8 +230,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1249" y="222" width="2407" height="1855" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27711865" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27711865" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -254,7 +245,7 @@
       <window_info anchor="bottom" id="Educational.CheckDetails" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.329806" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="11" weight="0.3962375" />
+      <window_info active="true" anchor="bottom" id="Python Console" order="11" visible="true" weight="0.3962375" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
