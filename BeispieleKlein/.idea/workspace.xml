@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bdcbdf-b50b-4b80-b88c-32293c8ca46a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/A30_1_Books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A30_2_Books.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k30_1Lambda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k30_2map.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/k30_3iterator.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A31_1_Teilbar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A31_2_Wuerfel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A31_3_Wuerfel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k14_7_fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/k14_7Fibonacci.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/k16_4_List_append.py" beforeDir="false" afterPath="$PROJECT_DIR$/k16_4ListAppend.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +52,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/A30_2_Books.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A31_1_Teilbar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/A31_2_Wuerfel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A31_3_Wuerfel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -106,12 +129,15 @@
         <option value="$PROJECT_DIR$/k30_3iterator.py" />
         <option value="$PROJECT_DIR$/A30_1_Books.py" />
         <option value="$PROJECT_DIR$/A30_2_Books.py" />
+        <option value="$PROJECT_DIR$/A31_1_Teilbar.py" />
+        <option value="$PROJECT_DIR$/A31_2_Wuerfel.py" />
+        <option value="$PROJECT_DIR$/A31_3_Wuerfel.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="325" />
-    <option name="y" value="108" />
+    <option name="x" value="1567" />
+    <option name="y" value="85" />
     <option name="width" value="2112" />
     <option name="height" value="1940" />
   </component>
@@ -121,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Course" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -133,6 +158,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -157,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.A30_2_Books">
+  <component name="RunManager" selected="Python.A31_3_Wuerfel">
     <configuration name="A30_1_Books" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="k30_1Lambda" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A31_1_Teilbar" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,7 +238,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k30_1Lambda.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A31_1_Teilbar.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="k30_2map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A31_2_Wuerfel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,7 +259,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k30_2map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A31_2_Wuerfel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -242,7 +268,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="k30_3iterator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="A31_3_Wuerfel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,7 +280,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k30_3iterator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/A31_3_Wuerfel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -265,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.A31_3_Wuerfel" />
+        <item itemvalue="Python.A31_2_Wuerfel" />
+        <item itemvalue="Python.A31_1_Teilbar" />
         <item itemvalue="Python.A30_2_Books" />
         <item itemvalue="Python.A30_1_Books" />
-        <item itemvalue="Python.k30_3iterator" />
-        <item itemvalue="Python.k30_2map" />
-        <item itemvalue="Python.k30_1Lambda" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +303,7 @@
     <configuration />
   </component>
   <component name="ToolWindowManager">
-    <frame x="325" y="108" width="2112" height="1940" extended-state="0" />
+    <frame x="1567" y="85" width="2112" height="1940" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22227603" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -508,7 +534,28 @@
     <entry file="file://$PROJECT_DIR$/A30_2_Books.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A31_1_Teilbar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A31_2_Wuerfel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/A31_3_Wuerfel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
