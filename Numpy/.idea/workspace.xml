@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c0f4f2d-9e4e-49c7-9d63-979276f457c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sizeOfObjects.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dtype_exp.py" beforeDir="false" afterPath="$PROJECT_DIR$/dtype_exp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/numpytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy_examples.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/numpy_examples.py" beforeDir="false" afterPath="$PROJECT_DIR$/numpy_examples.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/numpy_examples.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="1131">
+              <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -64,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sizeOfObjects.py">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -90,6 +87,7 @@
         <option value="$PROJECT_DIR$/stringioexp.py" />
         <option value="$PROJECT_DIR$/dtype_exp.py" />
         <option value="$PROJECT_DIR$/sizeOfObjects.py" />
+        <option value="$PROJECT_DIR$/numpy_examples.py" />
       </list>
     </option>
   </component>
@@ -121,8 +119,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Dropbox/MdynamixVerwaltung/Motorsport/CTypes/openxrkPyCharm" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.sizeOfObjects">
+  <component name="RunManager" selected="Python.numpy_examples">
     <configuration name="dtype_exp" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Numpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -158,27 +156,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="histgrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Numpy" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\dev\PythonBsp\Numpy\histograms.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="indexingFancy" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Numpy" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,6 +169,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/indexingFancy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="numpy_examples" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Numpy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/numpy_examples.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.numpy_examples" />
         <item itemvalue="Python.sizeOfObjects" />
         <item itemvalue="Python.dtype_exp" />
         <item itemvalue="Python.stringioexp" />
         <item itemvalue="Python.indexingFancy" />
-        <item itemvalue="Python.histgrams" />
       </list>
     </recent_temporary>
   </component>
@@ -258,11 +256,11 @@
   <component name="ToolWindowManager">
     <frame x="547" y="102" width="2407" height="1855" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161017" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3161017" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35038212" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50793654" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4420929" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -289,13 +287,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/numpy_examples.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/indexingFancy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
@@ -329,6 +320,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/sizeOfObjects.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/numpy_examples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1131">
+          <caret line="39" column="32" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
