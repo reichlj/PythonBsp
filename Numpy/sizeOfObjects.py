@@ -7,15 +7,14 @@ print("Größe ohne Größe der Elemente: ", size_of_list_object)
 print("Größe aller Elemente: ", size_of_elements)
 print("Gesamtgröße der Liste: ", total_list_size)
 
-
 x = int()
-print("Größe von int-Object int()", sys.getsizeof(x))
+print("Größe von int-Object int()", sys.getsizeof(x),' type=', type(x))
 x = 42
-print("Größe von int-Object int(42)", sys.getsizeof(x))
+print("Größe von int-Object int(42)", sys.getsizeof(x),' type=', type(x))
 x = 1234567890
-print("Größe von int-Object int(1234567890)", sys.getsizeof(x))
+print("Größe von int-Object int(1234567890)", sys.getsizeof(x),' type=', type(x))
 x = 12345678901234567890
-print("Größe von int-Object int(12345678901234567890)", sys.getsizeof(x))
+print("Größe von int-Object int(12345678901234567890)", sys.getsizeof(x),' type=', type(x))
 
 y = float()
 print("Größe von float-Object float()", sys.getsizeof(y))
