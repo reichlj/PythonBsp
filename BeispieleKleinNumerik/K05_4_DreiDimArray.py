@@ -13,11 +13,11 @@ print(X.shape)
 print("Dimension 0 with size ", X.shape[0])
 for i in range(X.shape[0]):
     print(f"\nAusgabe von X[{i:1},:,:]:")
-    print(X[i,:,:])
+    print(X[i, :, :])
 
-print('axis=0',X.sum(axis=0))
-print('axis=1',X.sum(axis=1))
-print('axis=2',X.sum(axis=2))
+print('axis=0', X.sum(axis=0))
+print('axis=1', X.sum(axis=1))
+print('axis=2', X.sum(axis=2))
 
 print("\nDimension 1 with size ", X.shape[1])
 for i in range(X.shape[1]):
