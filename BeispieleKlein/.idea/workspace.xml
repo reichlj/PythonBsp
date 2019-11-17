@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bdcbdf-b50b-4b80-b88c-32293c8ca46a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k13_function.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k15_5Fibonacci.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k15_5memory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -53,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.k13_function">
+  <component name="RunManager" selected="Python.k15_5Fibonacci">
     <configuration name="k13_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="k32_2generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="k15_5Fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +109,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k32_2generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k15_5Fibonacci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -117,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="k32_4GeneratorN" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="k15_5memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,7 +130,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k32_4GeneratorN.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k15_5memory.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.k15_5Fibonacci" />
+        <item itemvalue="Python.k15_5memory" />
         <item itemvalue="Python.k13_function" />
         <item itemvalue="Python.k14_7Rueckgabe" />
         <item itemvalue="Python.k32_5permutation" />
-        <item itemvalue="Python.k32_4GeneratorN" />
-        <item itemvalue="Python.k32_2generator" />
       </list>
     </recent_temporary>
   </component>
