@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bdcbdf-b50b-4b80-b88c-32293c8ca46a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/k21_destructor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -193,6 +190,8 @@
       <workItem from="1575063833746" duration="1361000" />
       <workItem from="1575318396670" duration="1376000" />
       <workItem from="1575323280453" duration="679000" />
+      <workItem from="1576256433237" duration="22000" />
+      <workItem from="1576256587463" duration="43000" />
     </task>
     <servers />
   </component>
