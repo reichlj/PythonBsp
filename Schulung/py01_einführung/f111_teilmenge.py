@@ -1,0 +1,10 @@
+E = set(range(2,100,2))
+O = set(range(1,100,2))
+A = set(range(1,100))
+print(E<=A)
+print(A>=O)
+print(E|O == A)
+print(E&O == set())
+print(E)
+print(O)
+

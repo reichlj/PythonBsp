@@ -1,0 +1,26 @@
+fh = open('yellow_snow.txt')
+s = fh.read()
+print(type(s), len(s))
+fh.close()
+
+fh = open('yellow_snow.txt')
+s = fh.read(100)
+print(type(s), len(s))
+fh.close()
+
+fh = open('yellow_snow.txt')
+s = fh.read(1000)
+print(type(s), len(s))
+fh.close()
+
+fh = open('yellow_snow.txt')
+s = fh.readlines()
+print(type(s), len(s))
+fh.close()
+
+fh = open('yellow_snow.txt')
+s = fh.readline()
+print(type(s), len(s))
+print(s)
+print(type(s.strip()), len(s.strip()))
+fh.close()

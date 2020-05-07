@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7bdcbdf-b50b-4b80-b88c-32293c8ca46a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/k25_slots.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,13 +26,12 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Dropbox/fhm/Pruefungskommission/Statistik2W_und_3/Auswertung" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -44,29 +46,7 @@
       <recent name="C:\dev\PythonBsp\BeispieleKlein" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.k21_destructor">
-    <configuration name="k13_function" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="BeispieleKlein" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k13_function.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.k25_slots">
     <configuration name="k15_5Fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -133,6 +113,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="k25_slots" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="BeispieleKlein" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/k25_slots.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="k36_18_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -157,25 +159,13 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.k25_slots" />
         <item itemvalue="Python.k21_destructor" />
         <item itemvalue="Python.k36_18_split" />
         <item itemvalue="Python.k15_5Fibonacci" />
         <item itemvalue="Python.k15_5memory" />
-        <item itemvalue="Python.k13_function" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -192,24 +182,66 @@
       <workItem from="1575323280453" duration="679000" />
       <workItem from="1576256433237" duration="22000" />
       <workItem from="1576256587463" duration="43000" />
+      <workItem from="1576525865678" duration="1227000" />
+      <workItem from="1578244302662" duration="31000" />
+      <workItem from="1578244374934" duration="25000" />
+      <workItem from="1578326271246" duration="52000" />
+      <workItem from="1587929091609" duration="1709000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="982" height="330" key="GridCell.Tab.0.bottom" timestamp="1587932046290">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.0.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046290" />
+    <state width="982" height="330" key="GridCell.Tab.0.center" timestamp="1587932046290">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.0.center/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046290" />
+    <state width="982" height="330" key="GridCell.Tab.0.left" timestamp="1587932046290">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.0.left/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046290" />
+    <state width="982" height="330" key="GridCell.Tab.0.right" timestamp="1587932046290">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.0.right/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046290" />
+    <state width="982" height="330" key="GridCell.Tab.1.bottom" timestamp="1587932046291">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.1.bottom/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046291" />
+    <state width="982" height="330" key="GridCell.Tab.1.center" timestamp="1587932046291">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.1.center/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046291" />
+    <state width="982" height="330" key="GridCell.Tab.1.left" timestamp="1587932046291">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.1.left/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046291" />
+    <state width="982" height="330" key="GridCell.Tab.1.right" timestamp="1587932046291">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="982" height="330" key="GridCell.Tab.1.right/0.0.2194.1194@0.0.2194.1194" timestamp="1587932046291" />
+    <state x="271" y="217" key="SettingsEditor" timestamp="1587929212226">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="271" y="217" key="SettingsEditor/0.0.2194.1194@0.0.2194.1194" timestamp="1587929212226" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -253,12 +285,18 @@
           <line>14</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/k25_slots.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/BeispieleKlein$k36_18_split.coverage" NAME="k36_18_split Coverage Results" MODIFIED="1575063975881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BeispieleKlein$k21_destructor.coverage" NAME="k21_destructor Coverage Results" MODIFIED="1587929844190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BeispieleKlein$k25_slots.coverage" NAME="k25_slots Coverage Results" MODIFIED="1587930200347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BeispieleKlein$k15_5Fibonacci.coverage" NAME="k15_5Fibonacci Coverage Results" MODIFIED="1575063964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BeispieleKlein$k21_destructor.coverage" NAME="k21_destructor Coverage Results" MODIFIED="1575319129874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BeispieleKlein$k36_18_split.coverage" NAME="k36_18_split Coverage Results" MODIFIED="1575063975881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

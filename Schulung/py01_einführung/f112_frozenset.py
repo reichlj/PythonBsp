@@ -1,0 +1,7 @@
+x = frozenset(['a','b','c'])
+y = frozenset(['c','d','e'])
+print(x)
+print(x|y)
+print(x&y)
+x = frozenset({'a','b','c'})
+print(x)

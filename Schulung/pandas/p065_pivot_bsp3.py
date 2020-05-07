@@ -1,0 +1,19 @@
+import pandas as pd
+
+d = {
+     'products': ['product1','product1','product2','product3'],
+     'colours': ['blue','green','blue','green'],
+     'customer_price': [2345.89,2390.50,1820.00,3100.00],
+     'non_customer_price': [2445.89,2495.50,1980.00,3400.00] }
+
+df = pd.DataFrame(d)
+print(df)
+print('-----------------------------')
+df3 = df.pivot(index='products',
+               columns='colours',
+               values=['customer_price','non_customer_price'])
+print(df3)
+print('-----------------------------')
+print(df3['customer_price']['blue'])
+print('-----------------------------')
+print(df3.columns)

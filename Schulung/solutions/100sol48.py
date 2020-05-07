@@ -1,0 +1,12 @@
+b = np.arange(12).reshape(3,4)
+print(b)
+b1=b.sum(axis=0)
+print(b1)
+b2 = np.vstack((b,b1))
+print(b2)
+b3=b2.sum(axis=1)
+print(b3)
+b3=b3[:,np.newaxis]               # this allows to have a 2D columns vector
+print(b3)
+b4 = np.hstack((b2,b3))
+print(b4)

@@ -1,0 +1,17 @@
+Land Flaeche Einwohnerzahl Einwohner pro qkm
+Baden-Württemberg 35751.65 10736   300.29
+Bayern 70551.57 12469   176.74
+Berlin 891.85 3396  3807.82
+Brandenburg 29478.61 2560    86.84
+Bremen 404.28 663  1639.95
+Hamburg 755.16 1743  2308.12
+Hessen 21114.79 6092   288.52
+Mecklenburg-Vorpommern 23180.14 1707    73.64
+Niedersachsen 47624.20 7994   167.86
+Nordrhein-Westfalen 34085.29 18058   529.79
+Rheinland-Pfalz 19853.36 4059   204.45
+Saarland 2568.70 1050   408.77
+Sachsen 18415.51 4274   232.09
+Sachsen-Anhalt 20446.31 2470   120.80
+Schleswig-Holstein 15799.38 2833   179.31
+Thüringen 16172.10 2335   144.38

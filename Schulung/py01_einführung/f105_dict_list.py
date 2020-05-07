@@ -1,0 +1,10 @@
+w = {'house':'Haus','cat':'Katze','red':'rot'}
+print(type(w.items()))
+print(w.items())
+print(list(w.items()))
+print(type(w.keys()))
+print(w.keys())
+print(list(w.keys()))
+print(type(w.values()))
+print(w.values())
+print(list(w.values()))
