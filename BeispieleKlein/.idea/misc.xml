@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (codewars)" project-jdk-type="Python SDK" />
+=======
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.8 (BeispieleKlein)" project-jdk-type="Python SDK" />
+>>>>>>> c1bbf6f0fd464a445de940f27ca1227a6fc81ae1
 </project>

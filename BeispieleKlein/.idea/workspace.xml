@@ -1,36 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c7bdcbdf-b50b-4b80-b88c-32293c8ca46a" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/k25_slots.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" afterDir="false" />
+=======
+    <list default="true" id="684e0562-7e7f-4f74-afdc-ac3baeecfdf0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/PythonBsp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeispieleKlein.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+>>>>>>> c1bbf6f0fd464a445de940f27ca1227a6fc81ae1
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/BeispieleKleinNumerik.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/other.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BeispieleKleinNumerik/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatplotPy/.idea/MatplotPy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatplotPy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatplotPy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatplotPy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatplotPy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MatplotPy/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/Numpy.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Numpy/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Python Script" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1SQEa42qiPhMBByWU8FAVl8ZzNg" />
+  <component name="ProjectId" id="1ZVALw0AgNEsNWNTLFGdGbRDWl7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+<<<<<<< HEAD
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Dropbox/fhm/Pruefungskommission/Statistik2W_und_3/Auswertung" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -48,6 +73,12 @@
   </component>
   <component name="RunManager" selected="Python.k25_slots">
     <configuration name="k15_5Fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="k13_function" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> c1bbf6f0fd464a445de940f27ca1227a6fc81ae1
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,6 +100,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="k15_5memory" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BeispieleKlein" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -164,6 +196,11 @@
         <item itemvalue="Python.k36_18_split" />
         <item itemvalue="Python.k15_5Fibonacci" />
         <item itemvalue="Python.k15_5memory" />
+=======
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.k13_function" />
+>>>>>>> c1bbf6f0fd464a445de940f27ca1227a6fc81ae1
       </list>
     </recent_temporary>
   </component>
@@ -172,10 +209,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c7bdcbdf-b50b-4b80-b88c-32293c8ca46a" name="Default Changelist" comment="" />
-      <created>1575063832632</created>
+      <changelist id="684e0562-7e7f-4f74-afdc-ac3baeecfdf0" name="Default Changelist" comment="" />
+      <created>1584913834399</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1575063832632</updated>
       <workItem from="1575063833746" duration="1361000" />
       <workItem from="1575318396670" duration="1376000" />
@@ -187,12 +225,19 @@
       <workItem from="1578244374934" duration="25000" />
       <workItem from="1578326271246" duration="52000" />
       <workItem from="1587929091609" duration="1709000" />
+=======
+      <updated>1584913834399</updated>
+      <workItem from="1584913836737" duration="100000" />
+      <workItem from="1584913973735" duration="21000" />
+      <workItem from="1588351616357" duration="59000" />
+>>>>>>> c1bbf6f0fd464a445de940f27ca1227a6fc81ae1
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+<<<<<<< HEAD
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -298,5 +343,35 @@
     <SUITE FILE_PATH="coverage/BeispieleKlein$k25_slots.coverage" NAME="k25_slots Coverage Results" MODIFIED="1587930200347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BeispieleKlein$k15_5Fibonacci.coverage" NAME="k15_5Fibonacci Coverage Results" MODIFIED="1575063964629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/BeispieleKlein$k36_18_split.coverage" NAME="k36_18_split Coverage Results" MODIFIED="1575063975881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+  <component name="WindowStateProjectService">
+    <state x="391" y="144" key="FileChooserDialogImpl" timestamp="1588351659672">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state x="391" y="144" key="FileChooserDialogImpl/0.0.1200.760@0.0.1200.760" timestamp="1588351659672" />
+    <state width="1124" height="174" key="GridCell.Tab.0.bottom" timestamp="1584913993961">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1124" height="174" key="GridCell.Tab.0.bottom/0.0.1200.760@0.0.1200.760" timestamp="1584913993961" />
+    <state width="1124" height="174" key="GridCell.Tab.0.center" timestamp="1584913993961">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1124" height="174" key="GridCell.Tab.0.center/0.0.1200.760@0.0.1200.760" timestamp="1584913993961" />
+    <state width="1124" height="174" key="GridCell.Tab.0.left" timestamp="1584913993961">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1124" height="174" key="GridCell.Tab.0.left/0.0.1200.760@0.0.1200.760" timestamp="1584913993961" />
+    <state width="1124" height="174" key="GridCell.Tab.0.right" timestamp="1584913993961">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state width="1124" height="174" key="GridCell.Tab.0.right/0.0.1200.760@0.0.1200.760" timestamp="1584913993961" />
+    <state x="122" y="45" key="SettingsEditor" timestamp="1584913899480">
+      <screen x="0" y="0" width="1200" height="760" />
+    </state>
+    <state x="122" y="45" key="SettingsEditor/0.0.1200.760@0.0.1200.760" timestamp="1584913899480" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BeispieleKlein$k13_function.coverage" NAME="k13_function Coverage Results" MODIFIED="1584913988875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> c1bbf6f0fd464a445de940f27ca1227a6fc81ae1
   </component>
 </project>
