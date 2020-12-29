@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ed4eaa-153a-4f46-81e8-3bcdf90e1768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K07_3_AddDimension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BeispieleKleinNumerik.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BeispieleKleinNumerik.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +33,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../courseraNg/Tutorial_Python" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.K07_4_Stack">
@@ -181,12 +175,25 @@
       <workItem from="1606815073741" duration="25582000" />
       <workItem from="1607083499972" duration="1268000" />
       <workItem from="1607101992892" duration="22000" />
-      <workItem from="1607165764741" duration="1734000" />
+      <workItem from="1607165764741" duration="2364000" />
+      <workItem from="1607197377192" duration="24000" />
     </task>
+    <task id="LOCAL-00001" summary="Beispiel K07_3 added">
+      <created>1607171107259</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607171107259</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Beispiel K07_3 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beispiel K07_3 added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
