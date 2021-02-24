@@ -18,7 +18,13 @@ Y = ylist.reshape((-1,1))*np.ones(xlist.shape[0])
 
 #           (50,1)              (1,30)   Dimensionen gleich
 #           (50,30)             (50,30)          Regel 2
-Y = ylist.reshape((-1,1))*np.ones((1,xlist.shape[0]))
+YA = ylist.reshape((-1,1))*np.ones((1,xlist.shape[0]))
+
+X1,Y1 = np.meshgrid(xlist,ylist)
+print('X==X1 ?',np.array_equal(X,X1))
+print('Y==Y1 ?',np.array_equal(Y,Y1))
+print('YA==Y1 ?',np.array_equal(Y,Y1))
+
 
 Z = np.sqrt(X**2+Y**2)
 plt.contour(X, Y, Z)

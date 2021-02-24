@@ -7,4 +7,8 @@ print(np.shape(A), np.shape(B))
 C = np.dstack((A,B))
 print(C)
 print(C.shape)
+print('Get A')
+print(C[:,:,0])
+print('Get B')
+print(C[:,:,1])
 
