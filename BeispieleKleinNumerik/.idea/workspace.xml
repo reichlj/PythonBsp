@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02ed4eaa-153a-4f46-81e8-3bcdf90e1768" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/K07_4_dstack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K07_4_vstack.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/K16_7_MeshgridTile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K07_3_AddDimension.py" beforeDir="false" afterPath="$PROJECT_DIR$/K07_3_AddDimension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K07_4_Stack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/K07_4_StackMultiDim.py" beforeDir="false" afterPath="$PROJECT_DIR$/K07_4_StackMultiDim.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/K16_7_Meshgrid.py" beforeDir="false" afterPath="$PROJECT_DIR$/K16_7_MeshgridBroadcast.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IntroMachineLearningETH" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -221,6 +214,9 @@
       <workItem from="1607197377192" duration="24000" />
       <workItem from="1614112218662" duration="6302000" />
       <workItem from="1614159192904" duration="6236000" />
+      <workItem from="1614167466935" duration="62000" />
+      <workItem from="1614183357099" duration="637000" />
+      <workItem from="1614270049927" duration="86000" />
     </task>
     <task id="LOCAL-00001" summary="Beispiel K07_3 added">
       <created>1607171107259</created>
@@ -236,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614118804209</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Beispiele ContourPlot, Meshgrid und Broadcasting">
+      <created>1614167519618</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614167519618</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Beispiel K07_3 added" />
     <MESSAGE value="Beispiele ContourPlot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Beispiele ContourPlot" />
+    <MESSAGE value="Beispiele ContourPlot, Meshgrid und Broadcasting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Beispiele ContourPlot, Meshgrid und Broadcasting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
